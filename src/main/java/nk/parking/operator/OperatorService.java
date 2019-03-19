@@ -5,5 +5,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
 public interface OperatorService {
+
     boolean isMeterRunning(Customer customer);
 }
